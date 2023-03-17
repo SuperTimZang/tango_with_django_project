@@ -30,7 +30,7 @@ SECRET_KEY = '1734gur5b1+t(o6nkp+(^1zlng)#shtv21d97wllt4gv1gs*!5'
 DEBUG = True
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_COOKIE_AGE = 1209600
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['timTest.pythonanywhere.com']
 
 
 # Application definition
@@ -125,7 +125,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = 'timTest.pythonanywhere.com'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR,]
 
 PASSWORD_HASHERS = [
